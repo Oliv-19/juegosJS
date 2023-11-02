@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Javascript games</title>
+</head>
+<body>
+   
+    <div class="header">
+        <nav class="nav-bar">
+            <h2 class="title">Classic Games</h2>
+            <ul class="nav">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Juegos</a>
+                    <ul>
+                        <li class="nav-link game1">
+                            <a href="#r-p-s">Rock-Paper-Scissors</a></li>
+                        <li class="nav-link game2">
+                            <a href="#Memory">Memory Game</a></li>
+                        <li class="nav-link game3">
+                            <a href="#w-a-m">Whac-a-mole</a></li>
+                        <li class="nav-link game4">
+                            <a href="#breakout">Breakout</a></li>
+                        <li class="nav-link game5">
+                            <a href="#Frogger">Frogger</a></li>
+                        <li class="nav-link game6">
+                            <a href="#connect-four">Connect Four</a></li>
+                        <li class="nav-link game7">
+                            <a href="#space-invaders">Space Invaders</a></li>
+                    </ul>
+                </li>
+                <li><button class="dark ">Dark Mode</button></li>
+            </ul>
+        </nav>
+    </div> 
+    
+    <section id="inicio">
+
+
+
+    </section>
+
+    <!--Game 1-->
+    <section id="r-p-s">
+        <div class="games-title">
+            <h1>Piedra, Papel o Tijera</h1><hr>
+        </div>
+
+        <div class="game-1">
+            <h2>Computadora: <span id="computer-choice"></span></h2>
+            <h2>Tu elección: <span id="user-choice"></span></h2>
+            <hr>
+            <h2>Resultado: <span id="result"></span></h2>
+
+            <button class="button-1" id="Piedra">Piedra</button>
+            <button class="button-1" id="Papel">Papel</button>
+            
+            <button class="button-1" id="Tijera">Tijera</button>
+        </div>
+</section>
+    <hr class="hr">
+
+    <!--Game 2-->
+<section id="Memory">
+   <div class="games-title">
+        <h1>Memorias</h1><hr>
+    </div>
+    <div class="game-2">
+        <div class="score">
+            <h3 class="memory-score">Puntaje: <span id="result-2"></span></h3>
+        </div>
+
+        <div id="grid"></div>
+    </div>
+
+    </section>
+<hr class="hr">
+
+<!--Game 3-->
+
+<section id="w-a-m">
+    <div class="games-title">
+        <h1>Whac-a-mole</h1><hr>
+    </div>
+
+    <div class="game-3">
+        <div class="wam-card">
+        <h2>Puntaje: </h2>
+        <h2 id="score-3">0</h2>
+
+        <h2>Tiempo: </h2>
+        <h2 id="time-left">60</h2>
+        <button class="button-3">Iniciar</button>
+    </div>
+
+        <div class="grid-3">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+        </div>
+    </div>
+</section>
+<hr class="hr">
+<!--Game 4-->
+
+<section id="breakout">
+    <div class="games-title">
+        <h1>Breakout</h1><hr>
+    </div>
+    <div class="game-4">
+        <div class="b-card">
+            <h2>Puntaje: </h2>
+            <h2 id="score-four">0</h2>
+            <button class="button-4 s-p-button">Iniciar/Pausar</button>
+        </div>
+        <div class="grid-4"></div>
+    </div>
+</section>
+<hr class="hr">
+
+<!--Game 5-->
+
+<section id="Frogger">
+    <div class="games-title">
+        <h1>Frogger</h1><hr>
+    </div>
+    <div class="game-5">
+        <div class="f-card">
+            <h3>Tiempo Restante: <span id="time-left-five">20</span></h3>
+            <h3>Resultado: <span id="result-five"></span></h3>
+
+            <button class="s-p-button" id="start-pause-button">Iniciar/Pausar</button>
+        </div>
+
+        <div class="grid-five">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="ending-block"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="log-left l1"></div>
+            <div class="log-left l2"></div>
+            <div class="log-left l3"></div>
+            <div class="log-left l4"></div>
+            <div class="log-left l5"></div>
+            <div class="log-left l1"></div>
+            <div class="log-left l2"></div>
+            <div class="log-left l3"></div>
+            <div class="log-left l4"></div>
+
+            <div class="log-right l5"></div>
+            <div class="log-right l1"></div>
+            <div class="log-right l2"></div>
+            <div class="log-right l3"></div>
+            <div class="log-right l4"></div>
+            <div class="log-right l5"></div>
+            <div class="log-right l1"></div>
+            <div class="log-right l2"></div>
+            <div class="log-right l3"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="car-left c1"></div>
+            <div class="car-left c2"></div>
+            <div class="car-left c3"></div>
+            <div class="car-left c1"></div>
+            <div class="car-left c2"></div>
+            <div class="car-left c3"></div>
+            <div class="car-left c1"></div>
+            <div class="car-left c2"></div>
+            <div class="car-left c3"></div>
+
+            <div class="car-right c1"></div>
+            <div class="car-right c2"></div>
+            <div class="car-right c3"></div>
+            <div class="car-right c1"></div>
+            <div class="car-right c2"></div>
+            <div class="car-right c3"></div>
+            <div class="car-right c1"></div>
+            <div class="car-right c2"></div>
+            <div class="car-right c3"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="starting-block frog"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+</section>
+<hr class="hr">
+ 
+<!-- game 6 -->
+<section id="connect-four">
+    <div class="games-title">
+        <h1>Conecta Cuatro</h1><hr>
+    </div>
+    <div class="game-5">
+        <div class="f-card">
+            <h3>Turno: Jugador <span id="current-player">1</span></h3>
+            <h3 id="result-six"></h3>
+        </div>
+        <div class="grid-six">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+            <div class="taken"></div>
+        </div>
+    </div>
+
+</section>
+<hr class="hr">
+
+<!-- game 7 -->
+
+<section id="space-invaders">
+    <div class="games-title">
+        <h1>Invasión Alien</h1><hr>
+    </div>
+
+    <div class="game-5">
+        <div class="f-card">
+            <h3>Resultado: <span class="results7"></span></h3>
+            <h3>Puntaje: <span class="puntaje">0</span></h3>
+            <button class="button7" id="button7">Iniciar</button>
+        </div>
+        
+        <div class="grid-7">
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
