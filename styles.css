@@ -1,0 +1,528 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+     background-color: #1a1a1a; 
+}
+
+.title {
+    position: absolute;
+    color: rgb(167, 167, 167);
+    left: 30px;
+    top: 6px;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+ul{
+    list-style: none; 
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+.nav > li{
+    float: left; 
+}
+
+.nav li a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+} 
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+    top: 40px;
+}
+
+.dark{
+    width: 80px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+/*dark mode*/
+
+
+
+
+
+/*Game 1*/
+
+.game-1{
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 50px;
+    padding-top: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    width: 400px;
+    margin-top: 150px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000000;
+}
+
+button{
+    border: #434343;
+    background-color: rgb(100, 100, 100);
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: rgb(235, 235, 235);
+}
+
+button:hover{
+    background-color: rgb(121, 121, 121);
+}
+
+hr{
+    margin-top: 10px;
+    border: 2px solid rgb(39, 38, 38);
+}
+
+.hr{
+    margin-top: 34vh;
+}
+
+h1{
+   text-align: center;
+   
+}
+
+/*game 2*/
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.games-title {
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000;
+}
+
+.memory-score{
+    text-align: center;
+    
+}
+
+.score{
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    height: 60px;
+    width: 230px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000;
+}
+
+.game-2{
+    display: flex;
+    margin: 0 150px 0 100px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/*game 3*/
+
+.grid-3{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-3{
+    display: flex;
+    margin: 0 250px 0 60px;
+}
+
+.wam-card{
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    height: 190px;
+    width: 230px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border:1px solid rgb(51, 48, 48);
+    border-radius: 5px;
+}
+
+.mole {
+    background-image: url(images/istockphoto-645546840-612x612.png);
+}
+
+/*Game 4*/
+
+#breakout{
+    height: 100vh;
+}
+
+.grid-4 {
+    position: absolute;
+    width: 560px;
+    height: 450px;
+    border: solid #7a7a7a 4px;
+    margin-top: 80px;
+    left: 450px;
+    border-radius: 10px;
+    background-color: #383838;
+    box-shadow: 12px 10px 15px #616161;
+}
+
+.game-4 {
+    display: flex;
+    margin: 0 250px 0 60px;
+}
+
+.b-card {
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    height: 120px;
+    width: 230px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000;
+    position: absolute;
+    left: 100px;
+    top: 3250px;
+    
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background:  rgb(82, 105, 92) ;
+    border-radius: 2px;
+}
+
+.userfour{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(137, 168, 160);
+    border-radius: 2px;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(60deg,
+     #575757, rgb(255, 254, 254)) ;
+    position: absolute;
+}
+
+/*game 5*/
+
+.game-5 {
+    display: flex;
+    margin: 0 150px 0 100px;
+}
+
+.f-card {
+    background-color: rgb(51, 48, 48);
+    border-radius: 5px;
+    padding: 30px;
+    color: rgb(235, 235, 235);
+    margin: auto;
+    margin-left: 0;
+    margin-right: 90px;
+    height: 100px;
+    width: 230px;
+    font-size: larger;
+    box-shadow: 12px 10px 15px #000;
+}
+
+.s-p-button {
+    width: 100px;
+}
+
+.grid-five {
+    border: 3px solid rgb(122, 122, 122);
+    border-radius: 5px;
+    height: 540px;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(174, 221, 188);
+}
+
+.grid-five div {
+    height: 60px;
+    width: 60px;
+}
+
+.ending-block{
+    border-radius: 0 0 50px 50px;
+    background-color: rgb(207, 149, 149);
+}
+
+.starting-block{
+    background-color: rgb(127, 206, 144);
+    border-radius: 50px 50px 0 0;
+}
+
+.l1, .l2, .l3 {
+  background: url(images/tronco.jpg);
+}
+
+.l4, .l5 {
+  background: #0c9ace;
+}
+
+.c1 {
+  background: url(images/carro.jpg);
+}
+
+.c2, .c3 {
+  background: url(images/carretera.jpg);
+}
+
+.frog {
+    background: url(images/frog.jpg);
+    border-radius: 50px 50px 0  0;
+}
+
+/*game 6*/
+
+.grid-six {
+    border: 1px solid;
+    height: 372px;
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(199, 199, 46);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.grid-six div {
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: auto;
+    
+}
+
+.grid-six .taken {
+    border: 0;
+}
+
+.player-1 {
+    background-color: rgb(201, 69, 69);
+    border-radius: 30px;
+    margin: auto;
+    border: 1px solid;
+    z-index: 0;
+}
+
+.player-1::after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    top: 8px;
+    background-color: rgb(204, 89, 89);
+    z-index: 1;
+    box-shadow: 2px 2px 4px 4px rgb(173, 58, 58) ;
+}
+
+.player-2 {
+    background-color: rgb(29, 100, 206);
+    border-radius: 30px;
+    margin: auto;
+    border: 1px solid ;
+}
+
+.player-2::after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    top: 8px;
+    background-color: rgb(60, 120, 209);
+    z-index: 1;
+    box-shadow: 2px 2px 4px 4px rgb(26, 85, 175) ;
+}
+/* game 7 */
+
+.grid-7 {
+    width: 470px;
+    height: 450px;
+     background-color: #292727; 
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.estrellas {
+    width: 1px;
+    height: 1px;
+    background-color: #cacaca;
+    margin: auto;
+}
+
+.grid-7 div {
+    width: 30px;
+    height: 30px;
+}
+
+.invader::before{
+    content: '';
+    display: block;
+    width: 17px;
+     height: 20px;
+     background: linear-gradient(90deg, rgb(128, 148, 153) , rgb(147, 172, 190) , rgb(128, 148, 153) ) ;  
+     border-radius: 20px 20px 0px 0px ;
+     z-index: 1;
+     position: relative;
+     left: 7px;
+} 
+
+.invader::after {
+    content: '';
+    display: block;
+    background: linear-gradient(90deg, rgb(103, 116, 124), rgb(158, 175, 177) 2px, rgb(103, 116, 124)) ;
+    width: 30px;
+    height: 10px;
+    border-radius: 30px 30px 0px 0px;
+    z-index: 1;
+    
+
+}  
+
+
+
+.shooter::before {
+     content: '';
+    display: block;
+    width: 17px;
+     height: 20px;
+     background: linear-gradient(90deg, rgb(145, 125, 153) , rgb(181, 157, 189) , rgb(145, 125, 153) ) ;  
+     border-radius: 20px 20px 0px 0px ;
+     z-index: 1;
+     position: relative;
+     left: 7px;
+    
+}
+
+.shooter::after{
+    content: '';
+    display: block;
+    background: linear-gradient(90deg, rgb(80, 80, 80), rgb(131, 131, 131) 2px, rgb(80, 80, 80)) ;
+    width: 30px;
+    height: 10px;
+    border-radius: 30px 30px 0px 0px;
+    z-index: 1;
+}
+
+.laser::before {
+     content: '';
+     display: block;
+     background: rgb(179, 151, 100);
+    width: 3px;
+    height: 20px;
+    
+}
+
+.boom {
+    background-color: rgb(190, 105, 72);
+    border-radius: 10px;
+}
+
+.boom::before{
+    content: '';
+    display: block;
+    background-color: rgb(204, 150, 79);
+    width: 20px;
+    height: 20px;
+    border-radius: 7px;
+    transform: rotate(60deg);
+    margin: auto;
+    position: relative;
+    top: 5px;
+    box-shadow: 2px 2px 2px rgb(158, 87, 59) ;
+}
+
+.boom::after{
+    content: '';
+    display: block;
+    background-color: rgb(204, 197, 129);
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transform: rotate(90deg);
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px rgb(131, 103, 52) ;
+}
